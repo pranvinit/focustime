@@ -25,6 +25,7 @@ export default function FocusScreen({ setFocusSubject }) {
             title="+"
             size={75}
             onPress={() => setFocusSubject(subject)}
+            disabled={!subject}
           />
         </View>
       </View>

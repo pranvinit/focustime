@@ -12,7 +12,7 @@ import Timing from "./Timing";
 import Countdown from "../../components/Countdown";
 import CircularButton from "../../components/CircularButton";
 
-const DEFAULT_TIME = 10;
+const DEFAULT_TIME = 0.1;
 
 export default function TimerScreen({
   clear_subject,
